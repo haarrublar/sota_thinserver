@@ -16,7 +16,7 @@ The API is straightforward but a thinclient in Python that connects to this serv
 The build and installation is done using Gradle. Gradle scripts and targets have been included. Make sure to have
 a JDK installed and configured that can target Java8, e.g., JDK 21
 
-Edit the `gradle/build.gradle` file to set `scpServer` to the Sota IP. Configure the sota username and root
+Edit the `gradle/install.gradle` file to set `scpServer` to the Sota IP. Configure the sota username and root
 (the defaults are probably fine)
 
 Run the `installAll` Gradle target, which compiles the server to target Java 8, installs the jars to the home folder,
